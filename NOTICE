@@ -1,0 +1,25 @@
+Beyond Hard Suppression — soft-scaling and iterative variants of SPIN
+Copyright 2026 Amina Menaa
+
+This work builds on SPIN, introduced in:
+
+  Qian et al. (2025). The Tug of War Within: Mitigating the Fairness-Privacy
+  Conflicts in Large Language Models. Proceedings of ACL.
+
+and on its released implementation, DEAN:
+
+  https://github.com/AI45Lab/DEAN
+  Copyright (c) AI45Lab, licensed under the Apache License, Version 2.0.
+
+Portions of the identification logic in the step-1 and step-2 notebooks are
+reproduced verbatim from DEAN's src/SPIN.py — specifically
+get_set_difference_mask and the coupled-index selection built on it — so that
+results replicate the released code rather than a reimplementation of it. Those
+sections are marked in the notebooks where they appear.
+
+The softSPIN and iterSPIN variants, the control conditions, the clinical case
+study and the normalised-HSIC and linear-CKA extensions are original to this
+work.
+
+Evaluation data and benchmarks are the property of their respective authors and
+are not redistributed here; the notebooks fetch them at runtime.

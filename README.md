@@ -25,12 +25,12 @@ Variants: `spin` (the reproduction), `soft`, `iter`, and the same three with a
 `-healthcare` suffix for the clinical case study.
 Models: `Qwen2-7B` (SPIN's own model), `Qwen2.5-3B`, `Llama-3.2-3B`, `Gemma-2-2B`.
 
-| step | what it does | key outputs |
-|---|---|---|
+| step             | what it does                                                                                      | key outputs                                 |
+| ---------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------- |
 | 1 identification | scores importance on fairness, privacy and general-capability prompts, then takes the coupled set | `coupled_*.json`, `iter_summary_*.json` |
-| 2 metrics | decoupling and capability measures per coupled set | `metrics_*.json` |
-| 3 generation | SALAD-Bench answers; EquityMedQA and MedSafetyBench for the clinical chapters | `answers_*.csv` |
-| 4 judge | MD-Judge safe-rate scoring with paired exact McNemar | `judge_*.json`, `labels_*.csv` |
+| 2 metrics        | decoupling and capability measures per coupled set                                                | `metrics_*.json`                          |
+| 3 generation     | SALAD-Bench answers; EquityMedQA and MedSafetyBench for the clinical chapters                     | `answers_*.csv`                           |
+| 4 judge          | MD-Judge safe-rate scoring with paired exact McNemar                                              | `judge_*.json`, `labels_*.csv`          |
 
 Notebook suffixes: `_control` (the same-size top-k control cuts, global and
 per-category), `_mmlu` (step 2 extended with MMLU), `_authorsample` (the
@@ -78,3 +78,21 @@ different times at different settings.
 
 Checkpoint caches (`control_cache_*.pt`) are excluded as regenerable
 intermediates. DEAN's data is not vendored; the notebooks clone it.
+
+## Built on SPIN
+
+This work reproduces and extends SPIN:
+
+> Qian et al. (2025). *The Tug of War Within: Mitigating the Fairness-Privacy
+> Conflicts in Large Language Models.* ACL.
+
+The released implementation, [DEAN](https://github.com/AI45Lab/DEAN) (AI45Lab,
+Apache 2.0), is cloned at runtime by every notebook for its calibration and
+evaluation data. The coupled-weight selection in steps 1 and 2 reproduces DEAN's
+`get_set_difference_mask` verbatim, so that the reproduction replicates the
+released code rather than a reimplementation — those sections are marked inline.
+See `NOTICE`.
+
+Benchmarks used: SALAD-Bench (Li et al., 2024), EquityMedQA (Pfohl et al., 2024),
+MedSafetyBench (Han et al., 2024), MMLU, MedMCQA and WikiText-2. HSIC follows
+Gretton et al. (2005) and linear CKA follows Kornblith et al. (2019).

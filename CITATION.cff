@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+title: >-
+  Beyond Hard Suppression: soft-scaling and iterative variants of SPIN for
+  fairness-privacy decoupling in LLMs, with a clinical-domain evaluation
+message: If you use this work, please cite it and the SPIN paper it builds on.
+type: software
+authors:
+  - family-names: Menaa
+    given-names: Amina
+    affiliation: Middlesex University Dubai
+year: 2026
+license: Apache-2.0
+repository-code: https://github.com/aminamenaa/msc-thesis-spin
+references:
+  - type: conference-paper
+    title: >-
+      The Tug of War Within: Mitigating the Fairness-Privacy Conflicts in Large
+      Language Models
+    authors:
+      - name: Qian et al.
+    collection-title: Proceedings of the Association for Computational Linguistics
+    year: 2025
