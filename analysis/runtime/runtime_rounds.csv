@@ -1,0 +1,262 @@
+folder,slug,model_id,round_type,round_key,round_of,printed_seconds,log_clock_s,delta_from_prev_s,extra
+7B Testing,step-1-importance-scoring,Qwen/Qwen2-7B-Instruct,group,1,7,162.0,338.36,,coupled=248
+7B Testing,step-1-importance-scoring,Qwen/Qwen2-7B-Instruct,group,2,7,163.0,501.13,162.77,coupled=509
+7B Testing,step-1-importance-scoring,Qwen/Qwen2-7B-Instruct,group,3,7,157.0,657.86,156.73,coupled=647
+7B Testing,step-1-importance-scoring,Qwen/Qwen2-7B-Instruct,group,4,7,156.0,813.86,156.0,coupled=767
+7B Testing,step-1-importance-scoring,Qwen/Qwen2-7B-Instruct,group,5,7,148.0,962.1,148.24,coupled=883
+7B Testing,step-1-importance-scoring,Qwen/Qwen2-7B-Instruct,group,6,7,140.0,1102.46,140.36,coupled=1011
+7B Testing,step-1-importance-scoring,Qwen/Qwen2-7B-Instruct,group,7,7,133.0,1234.91,132.45,coupled=1149
+Health 7B,health-step-1,Qwen/Qwen2-7B-Instruct,group,1,7,200.0,417.36,,coupled=96
+Health 7B,health-step-1,Qwen/Qwen2-7B-Instruct,group,2,7,195.0,612.82,195.46,coupled=267
+Health 7B,health-step-1,Qwen/Qwen2-7B-Instruct,group,3,7,188.0,801.23,188.41,coupled=414
+Health 7B,health-step-1,Qwen/Qwen2-7B-Instruct,group,4,7,187.0,988.25,187.02,coupled=587
+Health 7B,health-step-1,Qwen/Qwen2-7B-Instruct,group,5,7,180.0,1168.1,179.84,coupled=796
+Health 7B,health-step-1,Qwen/Qwen2-7B-Instruct,group,6,7,173.0,1341.59,173.49,coupled=997
+Health 7B,health-step-1,Qwen/Qwen2-7B-Instruct,group,7,7,166.0,1507.62,166.03,coupled=1163
+Iter-Gemma 2B,iter-spin-step-1-gemma-2b,google/gemma-2-2b-it,round,1,10,481.0,572.55,,
+Iter-Gemma 2B,iter-spin-step-1-gemma-2b,google/gemma-2-2b-it,round,2,10,478.0,1050.86,478.3,
+Iter-Gemma 2B,iter-spin-step-1-gemma-2b,google/gemma-2-2b-it,round,3,10,478.0,1528.94,478.09,
+Iter-Gemma 2B,iter-spin-step-1-gemma-2b,google/gemma-2-2b-it,round,4,10,478.0,2006.58,477.63,
+Iter-Gemma 2B,iter-spin-step-1-gemma-2b,google/gemma-2-2b-it,round,5,10,477.0,2483.65,477.08,
+Iter-Gemma 2B,iter-spin-step-1-gemma-2b,google/gemma-2-2b-it,round,6,10,475.0,2958.42,474.77,
+Iter-Gemma 2B,iter-spin-step-1-gemma-2b,google/gemma-2-2b-it,round,7,10,475.0,3433.23,474.81,
+Iter-Gemma 2B,iter-spin-step-1-gemma-2b,google/gemma-2-2b-it,round,8,10,476.0,3909.04,475.81,
+Iter-Gemma 2B,iter-spin-step-1-gemma-2b,google/gemma-2-2b-it,round,9,10,478.0,4387.37,478.33,
+Iter-Gemma 2B,iter-spin-step-1-gemma-2b,google/gemma-2-2b-it,round,10,10,476.0,4863.66,476.3,
+Iter-Gemma 2B,iter-spin-step-2-gemma-2b,google/gemma-2-2b-it,nvar:iter,1,,,999.52,,zeroed=235
+Iter-Gemma 2B,iter-spin-step-2-gemma-2b,google/gemma-2-2b-it,nvar:global,2,,,1437.01,437.49,zeroed=432
+Iter-Gemma 2B,iter-spin-step-2-gemma-2b,google/gemma-2-2b-it,nvar:iter,2,,,1874.71,437.7,zeroed=423
+Iter-Gemma 2B,iter-spin-step-2-gemma-2b,google/gemma-2-2b-it,nvar:percat,2,,,2311.02,436.31,zeroed=423
+Iter-Gemma 2B,iter-spin-step-2-gemma-2b,google/gemma-2-2b-it,nvar:global,3,,,2745.21,434.19,zeroed=583
+Iter-Gemma 2B,iter-spin-step-2-gemma-2b,google/gemma-2-2b-it,nvar:iter,3,,,3176.57,431.35,zeroed=588
+Iter-Gemma 2B,iter-spin-step-2-gemma-2b,google/gemma-2-2b-it,nvar:percat,3,,,3605.8,429.24,zeroed=588
+Iter-Gemma 2B,iter-spin-step-2-gemma-2b,google/gemma-2-2b-it,nvar:global,5,,,4038.99,433.19,zeroed=927
+Iter-Gemma 2B,iter-spin-step-2-gemma-2b,google/gemma-2-2b-it,nvar:iter,5,,,4471.2,432.21,zeroed=922
+Iter-Gemma 2B,iter-spin-step-2-gemma-2b,google/gemma-2-2b-it,nvar:percat,5,,,4905.05,433.85,zeroed=922
+Iter-Gemma 2B,iter-spin-step-2-gemma-2b,google/gemma-2-2b-it,nvar:global,10,,,5336.98,431.93,zeroed=1607
+Iter-Gemma 2B,iter-spin-step-2-gemma-2b,google/gemma-2-2b-it,nvar:iter,10,,,5768.46,431.48,zeroed=1596
+Iter-Gemma 2B,iter-spin-step-2-gemma-2b,google/gemma-2-2b-it,nvar:percat,10,,,6199.06,430.6,zeroed=1596
+Iter-Llama 3B,iter-spin-step-1-llama-3b,meta-llama/Llama-3.2-3B-Instruct,round,1,10,509.0,618.01,,
+Iter-Llama 3B,iter-spin-step-1-llama-3b,meta-llama/Llama-3.2-3B-Instruct,round,2,10,513.0,1130.72,512.71,
+Iter-Llama 3B,iter-spin-step-1-llama-3b,meta-llama/Llama-3.2-3B-Instruct,round,3,10,513.0,1643.56,512.85,
+Iter-Llama 3B,iter-spin-step-1-llama-3b,meta-llama/Llama-3.2-3B-Instruct,round,4,10,513.0,2157.02,513.46,
+Iter-Llama 3B,iter-spin-step-1-llama-3b,meta-llama/Llama-3.2-3B-Instruct,round,5,10,514.0,2670.54,513.53,
+Iter-Llama 3B,iter-spin-step-1-llama-3b,meta-llama/Llama-3.2-3B-Instruct,round,6,10,513.0,3183.19,512.65,
+Iter-Llama 3B,iter-spin-step-1-llama-3b,meta-llama/Llama-3.2-3B-Instruct,round,7,10,512.0,3695.63,512.44,
+Iter-Llama 3B,iter-spin-step-1-llama-3b,meta-llama/Llama-3.2-3B-Instruct,round,8,10,512.0,4207.44,511.81,
+Iter-Llama 3B,iter-spin-step-1-llama-3b,meta-llama/Llama-3.2-3B-Instruct,round,9,10,512.0,4718.95,511.51,
+Iter-Llama 3B,iter-spin-step-1-llama-3b,meta-llama/Llama-3.2-3B-Instruct,round,10,10,514.0,5232.29,513.34,
+Iter-Llama 3B,iter-spin-step-2-llama-3b,meta-llama/Llama-3.2-3B-Instruct,nvar:iter,1,,,791.21,,zeroed=879
+Iter-Llama 3B,iter-spin-step-2-llama-3b,meta-llama/Llama-3.2-3B-Instruct,nvar:global,2,,,1123.96,332.75,zeroed=1662
+Iter-Llama 3B,iter-spin-step-2-llama-3b,meta-llama/Llama-3.2-3B-Instruct,nvar:iter,2,,,1454.23,330.27,zeroed=1681
+Iter-Llama 3B,iter-spin-step-2-llama-3b,meta-llama/Llama-3.2-3B-Instruct,nvar:percat,2,,,1783.88,329.65,zeroed=1681
+Iter-Llama 3B,iter-spin-step-2-llama-3b,meta-llama/Llama-3.2-3B-Instruct,nvar:global,3,,,2114.41,330.53,zeroed=2413
+Iter-Llama 3B,iter-spin-step-2-llama-3b,meta-llama/Llama-3.2-3B-Instruct,nvar:iter,3,,,2441.87,327.46,zeroed=2426
+Iter-Llama 3B,iter-spin-step-2-llama-3b,meta-llama/Llama-3.2-3B-Instruct,nvar:percat,3,,,2769.83,327.96,zeroed=2426
+Iter-Llama 3B,iter-spin-step-2-llama-3b,meta-llama/Llama-3.2-3B-Instruct,nvar:global,5,,,3099.44,329.61,zeroed=3924
+Iter-Llama 3B,iter-spin-step-2-llama-3b,meta-llama/Llama-3.2-3B-Instruct,nvar:iter,5,,,3428.25,328.81,zeroed=3915
+Iter-Llama 3B,iter-spin-step-2-llama-3b,meta-llama/Llama-3.2-3B-Instruct,nvar:percat,5,,,3755.39,327.14,zeroed=3915
+Iter-Llama 3B,iter-spin-step-2-llama-3b,meta-llama/Llama-3.2-3B-Instruct,nvar:global,10,,,4082.13,326.73,zeroed=7380
+Iter-Llama 3B,iter-spin-step-2-llama-3b,meta-llama/Llama-3.2-3B-Instruct,nvar:iter,10,,,4408.87,326.74,zeroed=7379
+Iter-Llama 3B,iter-spin-step-2-llama-3b,meta-llama/Llama-3.2-3B-Instruct,nvar:percat,10,,,4735.54,326.67,zeroed=7379
+Iter-Qwen 3B,iter-spin-step-1-qwen-3b,Qwen/Qwen2.5-3B-Instruct,round,1,10,710.0,818.24,,
+Iter-Qwen 3B,iter-spin-step-1-qwen-3b,Qwen/Qwen2.5-3B-Instruct,round,2,10,708.0,1526.06,707.82,
+Iter-Qwen 3B,iter-spin-step-1-qwen-3b,Qwen/Qwen2.5-3B-Instruct,round,3,10,704.0,2230.43,704.37,
+Iter-Qwen 3B,iter-spin-step-1-qwen-3b,Qwen/Qwen2.5-3B-Instruct,round,4,10,707.0,2937.31,706.88,
+Iter-Qwen 3B,iter-spin-step-1-qwen-3b,Qwen/Qwen2.5-3B-Instruct,round,5,10,704.0,3641.55,704.24,
+Iter-Qwen 3B,iter-spin-step-1-qwen-3b,Qwen/Qwen2.5-3B-Instruct,round,6,10,702.0,4343.87,702.33,
+Iter-Qwen 3B,iter-spin-step-1-qwen-3b,Qwen/Qwen2.5-3B-Instruct,round,7,10,704.0,5048.0,704.13,
+Iter-Qwen 3B,iter-spin-step-1-qwen-3b,Qwen/Qwen2.5-3B-Instruct,round,8,10,707.0,5754.87,706.87,
+Iter-Qwen 3B,iter-spin-step-1-qwen-3b,Qwen/Qwen2.5-3B-Instruct,round,9,10,704.0,6459.07,704.2,
+Iter-Qwen 3B,iter-spin-step-1-qwen-3b,Qwen/Qwen2.5-3B-Instruct,round,10,10,698.0,7156.42,697.35,
+Iter-Qwen 3B,iter-spin-step-2-qwen-3b,Qwen/Qwen2.5-3B-Instruct,nvar:iter,1,,,853.37,,zeroed=645
+Iter-Qwen 3B,iter-spin-step-2-qwen-3b,Qwen/Qwen2.5-3B-Instruct,nvar:global,2,,,1220.66,367.29,zeroed=1261
+Iter-Qwen 3B,iter-spin-step-2-qwen-3b,Qwen/Qwen2.5-3B-Instruct,nvar:iter,2,,,1589.26,368.6,zeroed=1293
+Iter-Qwen 3B,iter-spin-step-2-qwen-3b,Qwen/Qwen2.5-3B-Instruct,nvar:percat,2,,,1955.5,366.24,zeroed=1293
+Iter-Qwen 3B,iter-spin-step-2-qwen-3b,Qwen/Qwen2.5-3B-Instruct,nvar:global,3,,,2322.87,367.37,zeroed=1875
+Iter-Qwen 3B,iter-spin-step-2-qwen-3b,Qwen/Qwen2.5-3B-Instruct,nvar:iter,3,,,2689.32,366.45,zeroed=1900
+Iter-Qwen 3B,iter-spin-step-2-qwen-3b,Qwen/Qwen2.5-3B-Instruct,nvar:percat,3,,,3055.23,365.91,zeroed=1900
+Iter-Qwen 3B,iter-spin-step-2-qwen-3b,Qwen/Qwen2.5-3B-Instruct,nvar:global,5,,,3420.81,365.58,zeroed=3007
+Iter-Qwen 3B,iter-spin-step-2-qwen-3b,Qwen/Qwen2.5-3B-Instruct,nvar:iter,5,,,3785.87,365.06,zeroed=3006
+Iter-Qwen 3B,iter-spin-step-2-qwen-3b,Qwen/Qwen2.5-3B-Instruct,nvar:percat,5,,,4153.16,367.29,zeroed=3006
+Iter-Qwen 3B,iter-spin-step-2-qwen-3b,Qwen/Qwen2.5-3B-Instruct,nvar:global,10,,,4519.54,366.38,zeroed=6005
+Iter-Qwen 3B,iter-spin-step-2-qwen-3b,Qwen/Qwen2.5-3B-Instruct,nvar:iter,10,,,4885.19,365.65,zeroed=6001
+Iter-Qwen 3B,iter-spin-step-2-qwen-3b,Qwen/Qwen2.5-3B-Instruct,nvar:percat,10,,,5251.77,366.58,zeroed=6001
+Iter-Spin Work,iter-spin-step-2,Qwen/Qwen2-7B-Instruct,nvar:iter,1,,,748.43,,zeroed=1201
+Iter-Spin Work,iter-spin-step-2,Qwen/Qwen2-7B-Instruct,nvar:global,2,,,1015.65,267.22,zeroed=2304
+Iter-Spin Work,iter-spin-step-2,Qwen/Qwen2-7B-Instruct,nvar:iter,2,,,1282.64,266.99,zeroed=2318
+Iter-Spin Work,iter-spin-step-2,Qwen/Qwen2-7B-Instruct,nvar:percat,2,,,1549.77,267.13,zeroed=2318
+Iter-Spin Work,iter-spin-step-2,Qwen/Qwen2-7B-Instruct,nvar:global,3,,,1816.66,266.89,zeroed=3364
+Iter-Spin Work,iter-spin-step-2,Qwen/Qwen2-7B-Instruct,nvar:iter,3,,,2083.57,266.91,zeroed=3342
+Iter-Spin Work,iter-spin-step-2,Qwen/Qwen2-7B-Instruct,nvar:percat,3,,,2350.5,266.94,zeroed=3342
+Iter-Spin Work,iter-spin-step-2,Qwen/Qwen2-7B-Instruct,nvar:global,5,,,2617.33,266.82,zeroed=5064
+Iter-Spin Work,iter-spin-step-2,Qwen/Qwen2-7B-Instruct,nvar:iter,5,,,2883.95,266.62,zeroed=5069
+Iter-Spin Work,iter-spin-step-2,Qwen/Qwen2-7B-Instruct,nvar:percat,5,,,3150.92,266.98,zeroed=5069
+Iter-Spin Work,iter-spin-step-2,Qwen/Qwen2-7B-Instruct,nvar:global,10,,,3417.68,266.75,zeroed=8593
+Iter-Spin Work,iter-spin-step-2,Qwen/Qwen2-7B-Instruct,nvar:iter,10,,,3684.53,266.85,zeroed=8590
+Iter-Spin Work,iter-spin-step-2,Qwen/Qwen2-7B-Instruct,nvar:percat,10,,,3950.94,266.41,zeroed=8590
+Iter-health,iter-health-step-1,Qwen/Qwen2-7B-Instruct,round,1,10,1339.0,1518.39,,
+Iter-health,iter-health-step-1,Qwen/Qwen2-7B-Instruct,round,2,10,1348.0,2866.04,1347.65,
+Iter-health,iter-health-step-1,Qwen/Qwen2-7B-Instruct,round,3,10,1346.0,4212.23,1346.19,
+Iter-health,iter-health-step-1,Qwen/Qwen2-7B-Instruct,round,4,10,1346.0,5558.04,1345.81,
+Iter-health,iter-health-step-1,Qwen/Qwen2-7B-Instruct,round,5,10,1347.0,6905.37,1347.33,
+Iter-health,iter-health-step-1,Qwen/Qwen2-7B-Instruct,round,6,10,1344.0,8248.9,1343.53,
+Iter-health,iter-health-step-1,Qwen/Qwen2-7B-Instruct,round,7,10,1342.0,9590.61,1341.72,
+Iter-health,iter-health-step-1,Qwen/Qwen2-7B-Instruct,round,8,10,1340.0,10931.09,1340.47,
+Iter-health,iter-health-step-1,Qwen/Qwen2-7B-Instruct,round,9,10,1342.0,12272.76,1341.68,
+Iter-health,iter-health-step-1,Qwen/Qwen2-7B-Instruct,round,10,10,1345.0,13617.2,1344.44,
+Iter-health,iter-health-step-2,Qwen/Qwen2-7B-Instruct,nvar:iter,1,,,2246.33,,zeroed=1160
+Iter-health,iter-health-step-2,Qwen/Qwen2-7B-Instruct,nvar:iter,2,,,3260.69,1014.36,zeroed=2150
+Iter-health,iter-health-step-2,Qwen/Qwen2-7B-Instruct,nvar:iter,3,,,4276.1,1015.41,zeroed=2988
+Iter-health,iter-health-step-2,Qwen/Qwen2-7B-Instruct,nvar:iter,5,,,5290.87,1014.77,zeroed=4531
+Iter-health,iter-health-step-2,Qwen/Qwen2-7B-Instruct,nvar:iter,10,,,6304.59,1013.72,zeroed=8777
+Soft-Gemma 2B,softspin-step-1-gemma-2b,google/gemma-2-2b-it,group,1,7,75.0,164.93,,coupled=62
+Soft-Gemma 2B,softspin-step-1-gemma-2b,google/gemma-2-2b-it,group,2,7,69.0,234.16,69.23,coupled=94
+Soft-Gemma 2B,softspin-step-1-gemma-2b,google/gemma-2-2b-it,group,3,7,65.0,299.25,65.09,coupled=113
+Soft-Gemma 2B,softspin-step-1-gemma-2b,google/gemma-2-2b-it,group,4,7,60.0,358.99,59.74,coupled=139
+Soft-Gemma 2B,softspin-step-1-gemma-2b,google/gemma-2-2b-it,group,5,7,55.0,413.85,54.86,coupled=166
+Soft-Gemma 2B,softspin-step-1-gemma-2b,google/gemma-2-2b-it,group,6,7,50.0,464.12,50.27,coupled=207
+Soft-Gemma 2B,softspin-step-1-gemma-2b,google/gemma-2-2b-it,group,7,7,38.0,502.1,37.98,coupled=222
+Soft-Gemma 2B,softspin-step-3-gemma-2b,,alpha,0.00,,,3249.29,,
+Soft-Gemma 2B,softspin-step-3-gemma-2b,,alpha,0.10,,,6358.98,3109.69,
+Soft-Gemma 2B,softspin-step-3-gemma-2b,,alpha,0.30,,,9474.86,3115.88,
+Soft-Gemma 2B,softspin-step-3-gemma-2b,,alpha,0.50,,,12597.41,3122.55,
+Soft-Gemma 2B,softspin-step-3-gemma-2b,,alpha,0.70,,,15731.79,3134.38,
+Soft-Gemma 2B,softspin-step-3-gemma-2b,,alpha,0.90,,,18852.7,3120.91,
+Soft-Gemma 2B,softspin-step-3-gemma-2b,,alpha,1.00,,,21975.82,3123.12,
+Soft-Gemma 2B,softspin-step-4-gemma-2b,,alpha,0.00...,,,2177.46,,
+Soft-Gemma 2B,softspin-step-4-gemma-2b,,alpha,0.10...,,,4173.92,1996.46,
+Soft-Gemma 2B,softspin-step-4-gemma-2b,,alpha,0.30...,,,6181.2,2007.27,
+Soft-Gemma 2B,softspin-step-4-gemma-2b,,alpha,0.50...,,,8185.25,2004.06,
+Soft-Gemma 2B,softspin-step-4-gemma-2b,,alpha,0.70...,,,10179.62,1994.37,
+Soft-Gemma 2B,softspin-step-4-gemma-2b,,alpha,0.90...,,,12171.45,1991.83,
+Soft-Gemma 2B,softspin-step-4-gemma-2b,,alpha,0.00...,,,14836.06,2664.61,
+Soft-Gemma 2B,softspin-step-4-gemma-2b,,alpha,0.10...,,,15488.3,652.24,
+Soft-Gemma 2B,softspin-step-4-gemma-2b,,alpha,0.30...,,,16153.29,665.0,
+Soft-Gemma 2B,softspin-step-4-gemma-2b,,alpha,0.50...,,,16810.51,657.22,
+Soft-Gemma 2B,softspin-step-4-gemma-2b,,alpha,0.70...,,,17466.72,656.21,
+Soft-Gemma 2B,softspin-step-4-gemma-2b,,alpha,0.90...,,,18120.44,653.72,
+Soft-Llama 3B,softspin-step-1-llama-3b,meta-llama/Llama-3.2-3B-Instruct,group,1,7,67.0,164.36,,coupled=79
+Soft-Llama 3B,softspin-step-1-llama-3b,meta-llama/Llama-3.2-3B-Instruct,group,2,7,64.0,227.9,63.54,coupled=164
+Soft-Llama 3B,softspin-step-1-llama-3b,meta-llama/Llama-3.2-3B-Instruct,group,3,7,62.0,289.59,61.69,coupled=260
+Soft-Llama 3B,softspin-step-1-llama-3b,meta-llama/Llama-3.2-3B-Instruct,group,4,7,57.0,346.95,57.36,coupled=406
+Soft-Llama 3B,softspin-step-1-llama-3b,meta-llama/Llama-3.2-3B-Instruct,group,5,7,57.0,404.36,57.41,coupled=584
+Soft-Llama 3B,softspin-step-1-llama-3b,meta-llama/Llama-3.2-3B-Instruct,group,6,7,54.0,458.46,54.1,coupled=746
+Soft-Llama 3B,softspin-step-1-llama-3b,meta-llama/Llama-3.2-3B-Instruct,group,7,7,51.0,509.21,50.75,coupled=931
+Soft-Llama 3B,softspin-step-3-llama-3b,,alpha,0.00,,,2332.61,,
+Soft-Llama 3B,softspin-step-3-llama-3b,,alpha,0.10,,,4552.86,2220.25,
+Soft-Llama 3B,softspin-step-3-llama-3b,,alpha,0.30,,,6779.58,2226.72,
+Soft-Llama 3B,softspin-step-3-llama-3b,,alpha,0.50,,,9009.85,2230.27,
+Soft-Llama 3B,softspin-step-3-llama-3b,,alpha,0.70,,,11244.23,2234.38,
+Soft-Llama 3B,softspin-step-3-llama-3b,,alpha,0.90,,,13485.38,2241.14,
+Soft-Llama 3B,softspin-step-3-llama-3b,,alpha,1.00,,,15728.28,2242.9,
+Soft-Llama 3B,softspin-step-4-llama-3b,,alpha,0.00...,,,2518.9,,
+Soft-Llama 3B,softspin-step-4-llama-3b,,alpha,0.10...,,,4889.39,2370.49,
+Soft-Llama 3B,softspin-step-4-llama-3b,,alpha,0.30...,,,7269.88,2380.5,
+Soft-Llama 3B,softspin-step-4-llama-3b,,alpha,0.50...,,,9644.59,2374.7,
+Soft-Llama 3B,softspin-step-4-llama-3b,,alpha,0.70...,,,12027.92,2383.33,
+Soft-Llama 3B,softspin-step-4-llama-3b,,alpha,0.90...,,,14408.74,2380.82,
+Soft-Llama 3B,softspin-step-4-llama-3b,,alpha,0.00...,,,17483.32,3074.59,
+Soft-Llama 3B,softspin-step-4-llama-3b,,alpha,0.10...,,,18160.21,676.88,
+Soft-Llama 3B,softspin-step-4-llama-3b,,alpha,0.30...,,,18837.23,677.02,
+Soft-Llama 3B,softspin-step-4-llama-3b,,alpha,0.50...,,,19517.23,680.0,
+Soft-Llama 3B,softspin-step-4-llama-3b,,alpha,0.70...,,,20201.82,684.59,
+Soft-Llama 3B,softspin-step-4-llama-3b,,alpha,0.90...,,,20886.92,685.1,
+Soft-Qwen 3B,softspin-step-3-qwen-3b,,alpha,0.00,,,2827.87,,
+Soft-Qwen 3B,softspin-step-3-qwen-3b,,alpha,0.10,,,5541.53,2713.66,
+Soft-Qwen 3B,softspin-step-3-qwen-3b,,alpha,0.30,,,8276.61,2735.08,
+Soft-Qwen 3B,softspin-step-3-qwen-3b,,alpha,0.50,,,10999.18,2722.57,
+Soft-Qwen 3B,softspin-step-3-qwen-3b,,alpha,0.70,,,13784.58,2785.39,
+Soft-Qwen 3B,softspin-step-3-qwen-3b,,alpha,0.90,,,16546.08,2761.51,
+Soft-Qwen 3B,softspin-step-3-qwen-3b,,alpha,1.00,,,19314.49,2768.4,
+Soft-Qwen 3B,softspin-step-4-qwen-3b,,alpha,0.00...,,,2728.63,,
+Soft-Qwen 3B,softspin-step-4-qwen-3b,,alpha,0.10...,,,5268.64,2540.01,
+Soft-Qwen 3B,softspin-step-4-qwen-3b,,alpha,0.30...,,,7802.69,2534.06,
+Soft-Qwen 3B,softspin-step-4-qwen-3b,,alpha,0.50...,,,10340.26,2537.57,
+Soft-Qwen 3B,softspin-step-4-qwen-3b,,alpha,0.70...,,,12892.75,2552.49,
+Soft-Qwen 3B,softspin-step-4-qwen-3b,,alpha,0.90...,,,15446.44,2553.68,
+Soft-Qwen 3B,softspin-step-4-qwen-3b,,alpha,0.00...,,,18748.42,3301.99,
+Soft-Qwen 3B,softspin-step-4-qwen-3b,,alpha,0.10...,,,19492.64,744.22,
+Soft-Qwen 3B,softspin-step-4-qwen-3b,,alpha,0.30...,,,20233.16,740.52,
+Soft-Qwen 3B,softspin-step-4-qwen-3b,,alpha,0.50...,,,20967.37,734.21,
+Soft-Qwen 3B,softspin-step-4-qwen-3b,,alpha,0.70...,,,21704.89,737.52,
+Soft-Qwen 3B,softspin-step-4-qwen-3b,,alpha,0.90...,,,22458.4,753.51,
+Soft-Qwen 7B,softspin-step-1-qwen-7b,Qwen/Qwen2-7B-Instruct,group,1,7,161.0,414.91,,coupled=248
+Soft-Qwen 7B,softspin-step-1-qwen-7b,Qwen/Qwen2-7B-Instruct,group,2,7,157.0,572.17,157.26,coupled=510
+Soft-Qwen 7B,softspin-step-1-qwen-7b,Qwen/Qwen2-7B-Instruct,group,3,7,156.0,728.27,156.1,coupled=647
+Soft-Qwen 7B,softspin-step-1-qwen-7b,Qwen/Qwen2-7B-Instruct,group,4,7,156.0,884.0,155.73,coupled=767
+Soft-Qwen 7B,softspin-step-1-qwen-7b,Qwen/Qwen2-7B-Instruct,group,5,7,148.0,1032.2,148.2,coupled=883
+Soft-Qwen 7B,softspin-step-1-qwen-7b,Qwen/Qwen2-7B-Instruct,group,6,7,144.0,1176.11,143.91,coupled=1010
+Soft-Qwen 7B,softspin-step-1-qwen-7b,Qwen/Qwen2-7B-Instruct,group,7,7,139.0,1314.89,138.78,coupled=1148
+Soft-Qwen 7B,softspin-step-3-qwen-7b,,alpha,0.00,,,3300.83,,
+Soft-Qwen 7B,softspin-step-3-qwen-7b,,alpha,0.10,,,6445.64,3144.82,
+Soft-Qwen 7B,softspin-step-3-qwen-7b,,alpha,0.30,,,9593.61,3147.97,
+Soft-Qwen 7B,softspin-step-3-qwen-7b,,alpha,0.50,,,12747.63,3154.02,
+Soft-Qwen 7B,softspin-step-3-qwen-7b,,alpha,0.70,,,15907.28,3159.65,
+Soft-Qwen 7B,softspin-step-3-qwen-7b,,alpha,0.90,,,19069.08,3161.8,
+Soft-Qwen 7B,softspin-step-3-qwen-7b,,alpha,1.00,,,22234.71,3165.63,
+Soft-Qwen 7B,softspin-step-4-qwen-7b,,alpha,0.00...,,,2538.56,,
+Soft-Qwen 7B,softspin-step-4-qwen-7b,,alpha,0.30...,,,4942.52,2403.96,
+Soft-Qwen 7B,softspin-step-4-qwen-7b,,alpha,0.00...,,,8035.56,3093.05,
+Soft-Qwen 7B,softspin-step-4-qwen-7b,,alpha,0.30...,,,8724.14,688.58,
+Soft-health,soft-health-step-1,Qwen/Qwen2-7B-Instruct,group,1,7,172.0,374.03,,coupled=95
+Soft-health,soft-health-step-1,Qwen/Qwen2-7B-Instruct,group,2,7,174.0,548.32,174.29,coupled=266
+Soft-health,soft-health-step-1,Qwen/Qwen2-7B-Instruct,group,3,7,167.0,715.58,167.26,coupled=413
+Soft-health,soft-health-step-1,Qwen/Qwen2-7B-Instruct,group,4,7,165.0,880.59,165.01,coupled=586
+Soft-health,soft-health-step-1,Qwen/Qwen2-7B-Instruct,group,5,7,157.0,1037.2,156.61,coupled=795
+Soft-health,soft-health-step-1,Qwen/Qwen2-7B-Instruct,group,6,7,148.0,1185.64,148.44,coupled=995
+Soft-health,soft-health-step-1,Qwen/Qwen2-7B-Instruct,group,7,7,140.0,1325.84,140.21,coupled=1161
+Soft-health,soft-health-step-3,Qwen/Qwen2-7B-Instruct,alpha,0.00,,,2499.1,,
+Soft-health,soft-health-step-3,Qwen/Qwen2-7B-Instruct,alpha,0.10,,,4823.39,2324.29,
+Soft-health,soft-health-step-3,Qwen/Qwen2-7B-Instruct,alpha,0.30,,,7150.36,2326.97,
+Soft-health,soft-health-step-3,Qwen/Qwen2-7B-Instruct,alpha,0.50,,,9479.42,2329.06,
+Soft-health,soft-health-step-3,Qwen/Qwen2-7B-Instruct,alpha,0.70,,,11810.83,2331.4,
+Soft-health,soft-health-step-3,Qwen/Qwen2-7B-Instruct,alpha,0.90,,,14144.77,2333.94,
+Soft-health,soft-health-step-3,Qwen/Qwen2-7B-Instruct,alpha,1.00,,,16480.66,2335.89,
+Iter-Qwen 3B,iter-spin-step-3-qwen-3b,Qwen2.5-3B-Instruct,gen_pass,baseline_fairness,,2128.0,,,from executed .ipynb
+Iter-Qwen 3B,iter-spin-step-3-qwen-3b,Qwen2.5-3B-Instruct,gen_pass,baseline_privacy,,646.0,,,from executed .ipynb
+Iter-Qwen 3B,iter-spin-step-3-qwen-3b,Qwen2.5-3B-Instruct,gen_pass,iter_n1_fairness,,2151.0,,,from executed .ipynb
+Iter-Qwen 3B,iter-spin-step-3-qwen-3b,Qwen2.5-3B-Instruct,gen_pass,iter_n1_privacy,,660.0,,,from executed .ipynb
+Iter-Qwen 3B,iter-spin-step-3-qwen-3b,Qwen2.5-3B-Instruct,gen_pass,global_n2_fairness,,2170.0,,,from executed .ipynb
+Iter-Qwen 3B,iter-spin-step-3-qwen-3b,Qwen2.5-3B-Instruct,gen_pass,global_n2_privacy,,660.0,,,from executed .ipynb
+Iter-Qwen 3B,iter-spin-step-3-qwen-3b,Qwen2.5-3B-Instruct,gen_pass,iter_n2_fairness,,2169.0,,,from executed .ipynb
+Iter-Qwen 3B,iter-spin-step-3-qwen-3b,Qwen2.5-3B-Instruct,gen_pass,iter_n2_privacy,,649.0,,,from executed .ipynb
+Iter-Qwen 3B,iter-spin-step-3-qwen-3b,Qwen2.5-3B-Instruct,gen_pass,percat_n2_fairness,,2176.0,,,from executed .ipynb
+Iter-Qwen 3B,iter-spin-step-3-qwen-3b,Qwen2.5-3B-Instruct,gen_pass,percat_n2_privacy,,668.0,,,from executed .ipynb
+Iter-Qwen 3B,iter-spin-step-3-qwen-3b,Qwen2.5-3B-Instruct,gen_pass,global_n3_fairness,,2168.0,,,from executed .ipynb
+Iter-Qwen 3B,iter-spin-step-3-qwen-3b,Qwen2.5-3B-Instruct,gen_pass,global_n3_privacy,,667.0,,,from executed .ipynb
+Iter-Qwen 3B,iter-spin-step-3-qwen-3b,Qwen2.5-3B-Instruct,gen_pass,iter_n3_fairness,,2168.0,,,from executed .ipynb
+Iter-Qwen 3B,iter-spin-step-3-qwen-3b,Qwen2.5-3B-Instruct,gen_pass,iter_n3_privacy,,659.0,,,from executed .ipynb
+Iter-Qwen 3B,iter-spin-step-3-qwen-3b,Qwen2.5-3B-Instruct,gen_pass,percat_n3_fairness,,2176.0,,,from executed .ipynb
+Iter-Qwen 3B,iter-spin-step-3-qwen-3b,Qwen2.5-3B-Instruct,gen_pass,percat_n3_privacy,,658.0,,,from executed .ipynb
+Iter-Qwen 3B,iter-spin-step-3-qwen-3b,Qwen2.5-3B-Instruct,gen_pass,global_n5_fairness,,2161.0,,,from executed .ipynb
+Iter-Qwen 3B,iter-spin-step-3-qwen-3b,Qwen2.5-3B-Instruct,gen_pass,global_n5_privacy,,660.0,,,from executed .ipynb
+Iter-Qwen 3B,iter-spin-step-3-qwen-3b,Qwen2.5-3B-Instruct,gen_pass,iter_n5_fairness,,2161.0,,,from executed .ipynb
+Iter-Qwen 3B,iter-spin-step-3-qwen-3b,Qwen2.5-3B-Instruct,gen_pass,iter_n5_privacy,,662.0,,,from executed .ipynb
+Iter-Qwen 3B,iter-spin-step-3-qwen-3b,Qwen2.5-3B-Instruct,gen_pass,percat_n5_fairness,,2167.0,,,from executed .ipynb
+Iter-Qwen 3B,iter-spin-step-3-qwen-3b,Qwen2.5-3B-Instruct,gen_pass,percat_n5_privacy,,656.0,,,from executed .ipynb
+Iter-Qwen 3B,iter-spin-step-3-qwen-3b,Qwen2.5-3B-Instruct,gen_pass,global_n10_fairness,,2175.0,,,from executed .ipynb
+Iter-Qwen 3B,iter-spin-step-3-qwen-3b,Qwen2.5-3B-Instruct,gen_pass,global_n10_privacy,,662.0,,,from executed .ipynb
+Iter-Qwen 3B,iter-spin-step-3-qwen-3b,Qwen2.5-3B-Instruct,gen_pass,iter_n10_fairness,,2188.0,,,from executed .ipynb
+Iter-Qwen 3B,iter-spin-step-3-qwen-3b,Qwen2.5-3B-Instruct,gen_pass,iter_n10_privacy,,665.0,,,from executed .ipynb
+Iter-Qwen 3B,iter-spin-step-3-qwen-3b,Qwen2.5-3B-Instruct,gen_pass,percat_n10_fairness,,2191.0,,,from executed .ipynb
+Iter-Qwen 3B,iter-spin-step-3-qwen-3b,Qwen2.5-3B-Instruct,gen_pass,percat_n10_privacy,,684.0,,,from executed .ipynb
+Iter-Spin Work,iter-spin-step-1-7b-qwen,Qwen2-7B-Instruct,round,1,10,1221.0,,,from executed .ipynb
+Iter-Spin Work,iter-spin-step-1-7b-qwen,Qwen2-7B-Instruct,round,2,10,1223.0,,,from executed .ipynb
+Iter-Spin Work,iter-spin-step-1-7b-qwen,Qwen2-7B-Instruct,round,3,10,1237.0,,,from executed .ipynb
+Iter-Spin Work,iter-spin-step-1-7b-qwen,Qwen2-7B-Instruct,round,4,10,1218.0,,,from executed .ipynb
+Iter-Spin Work,iter-spin-step-1-7b-qwen,Qwen2-7B-Instruct,round,5,10,1219.0,,,from executed .ipynb
+Iter-Spin Work,iter-spin-step-1-7b-qwen,Qwen2-7B-Instruct,round,6,10,1238.0,,,from executed .ipynb
+Iter-Spin Work,iter-spin-step-1-7b-qwen,Qwen2-7B-Instruct,round,7,10,1219.0,,,from executed .ipynb
+Iter-Spin Work,iter-spin-step-1-7b-qwen,Qwen2-7B-Instruct,round,8,10,1219.0,,,from executed .ipynb
+Iter-Spin Work,iter-spin-step-1-7b-qwen,Qwen2-7B-Instruct,round,9,10,1236.0,,,from executed .ipynb
+Iter-Spin Work,iter-spin-step-1-7b-qwen,Qwen2-7B-Instruct,round,10,10,1220.0,,,from executed .ipynb
+Soft-Qwen 3B,softspin-step-1-qwen-3b,Qwen2.5-3B-Instruct,group,1,9,71.0,,,from executed .ipynb
+Soft-Qwen 3B,softspin-step-1-qwen-3b,Qwen2.5-3B-Instruct,group,2,9,67.0,,,from executed .ipynb
+Soft-Qwen 3B,softspin-step-1-qwen-3b,Qwen2.5-3B-Instruct,group,3,9,64.0,,,from executed .ipynb
+Soft-Qwen 3B,softspin-step-1-qwen-3b,Qwen2.5-3B-Instruct,group,4,9,61.0,,,from executed .ipynb
+Soft-Qwen 3B,softspin-step-1-qwen-3b,Qwen2.5-3B-Instruct,group,5,9,57.0,,,from executed .ipynb
+Soft-Qwen 3B,softspin-step-1-qwen-3b,Qwen2.5-3B-Instruct,group,6,9,56.0,,,from executed .ipynb
+Soft-Qwen 3B,softspin-step-1-qwen-3b,Qwen2.5-3B-Instruct,group,7,9,53.0,,,from executed .ipynb
+Soft-Qwen 3B,softspin-step-1-qwen-3b,Qwen2.5-3B-Instruct,group,8,9,50.0,,,from executed .ipynb
+Soft-Qwen 3B,softspin-step-1-qwen-3b,Qwen2.5-3B-Instruct,group,9,9,48.0,,,from executed .ipynb
