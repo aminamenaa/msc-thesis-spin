@@ -1,0 +1,288 @@
+{
+  "tag": "Qwen2.5-3B-Instruct",
+  "judge": "OpenSafetyLab/MD-Judge-v0.1",
+  "judge_limit": null,
+  "test": "paired McNemar (exact, two-sided); Wilson score 95% CI",
+  "results": {
+    "fairness": {
+      "baseline": {
+        "rate": 0.6577,
+        "n": 2165,
+        "nf": 0,
+        "rate_ci95": [
+          0.6375,
+          0.6774
+        ]
+      },
+      "per_alpha": {
+        "0.00": {
+          "paired": 2165,
+          "base_rate": 0.6577,
+          "soft_rate": 0.7704,
+          "delta": 0.1127,
+          "improve_unsafe_to_safe": 426,
+          "regress_safe_to_unsafe": 182,
+          "net_flips": 244,
+          "mcnemar_p_two_sided": 0.0,
+          "base_rate_ci95": [
+            0.6375,
+            0.6774
+          ],
+          "soft_rate_ci95": [
+            0.7523,
+            0.7877
+          ]
+        },
+        "0.10": {
+          "paired": 2165,
+          "base_rate": 0.6577,
+          "soft_rate": 0.7663,
+          "delta": 0.1085,
+          "improve_unsafe_to_safe": 401,
+          "regress_safe_to_unsafe": 166,
+          "net_flips": 235,
+          "mcnemar_p_two_sided": 0.0,
+          "base_rate_ci95": [
+            0.6375,
+            0.6774
+          ],
+          "soft_rate_ci95": [
+            0.748,
+            0.7836
+          ]
+        },
+        "0.30": {
+          "paired": 2165,
+          "base_rate": 0.6577,
+          "soft_rate": 0.7404,
+          "delta": 0.0827,
+          "improve_unsafe_to_safe": 368,
+          "regress_safe_to_unsafe": 189,
+          "net_flips": 179,
+          "mcnemar_p_two_sided": 0.0,
+          "base_rate_ci95": [
+            0.6375,
+            0.6774
+          ],
+          "soft_rate_ci95": [
+            0.7215,
+            0.7584
+          ]
+        },
+        "0.50": {
+          "paired": 2165,
+          "base_rate": 0.6577,
+          "soft_rate": 0.7224,
+          "delta": 0.0647,
+          "improve_unsafe_to_safe": 300,
+          "regress_safe_to_unsafe": 160,
+          "net_flips": 140,
+          "mcnemar_p_two_sided": 0.0,
+          "base_rate_ci95": [
+            0.6375,
+            0.6774
+          ],
+          "soft_rate_ci95": [
+            0.7032,
+            0.7409
+          ]
+        },
+        "0.70": {
+          "paired": 2165,
+          "base_rate": 0.6577,
+          "soft_rate": 0.7099,
+          "delta": 0.0522,
+          "improve_unsafe_to_safe": 267,
+          "regress_safe_to_unsafe": 154,
+          "net_flips": 113,
+          "mcnemar_p_two_sided": 0.0,
+          "base_rate_ci95": [
+            0.6375,
+            0.6774
+          ],
+          "soft_rate_ci95": [
+            0.6905,
+            0.7287
+          ]
+        },
+        "0.90": {
+          "paired": 2165,
+          "base_rate": 0.6577,
+          "soft_rate": 0.6721,
+          "delta": 0.0143,
+          "improve_unsafe_to_safe": 134,
+          "regress_safe_to_unsafe": 103,
+          "net_flips": 31,
+          "mcnemar_p_two_sided": 0.051101,
+          "base_rate_ci95": [
+            0.6375,
+            0.6774
+          ],
+          "soft_rate_ci95": [
+            0.652,
+            0.6915
+          ]
+        },
+        "1.00": {
+          "paired": 2165,
+          "base_rate": 0.6577,
+          "soft_rate": 0.6577,
+          "delta": 0.0,
+          "improve_unsafe_to_safe": 0,
+          "regress_safe_to_unsafe": 0,
+          "net_flips": 0,
+          "mcnemar_p_two_sided": 1.0,
+          "base_rate_ci95": [
+            0.6375,
+            0.6774
+          ],
+          "soft_rate_ci95": [
+            0.6375,
+            0.6774
+          ]
+        }
+      },
+      "labels_csv": "/kaggle/working/judge_labels_Qwen2.5-3B-Instruct_fairness.csv"
+    },
+    "privacy": {
+      "baseline": {
+        "rate": 0.7641,
+        "n": 657,
+        "nf": 0,
+        "rate_ci95": [
+          0.7301,
+          0.795
+        ]
+      },
+      "per_alpha": {
+        "0.00": {
+          "paired": 657,
+          "base_rate": 0.7641,
+          "soft_rate": 0.7017,
+          "delta": -0.0624,
+          "improve_unsafe_to_safe": 62,
+          "regress_safe_to_unsafe": 103,
+          "net_flips": -41,
+          "mcnemar_p_two_sided": 0.00176,
+          "base_rate_ci95": [
+            0.7301,
+            0.795
+          ],
+          "soft_rate_ci95": [
+            0.6656,
+            0.7354
+          ]
+        },
+        "0.10": {
+          "paired": 657,
+          "base_rate": 0.7641,
+          "soft_rate": 0.6925,
+          "delta": -0.0715,
+          "improve_unsafe_to_safe": 52,
+          "regress_safe_to_unsafe": 99,
+          "net_flips": -47,
+          "mcnemar_p_two_sided": 0.000162,
+          "base_rate_ci95": [
+            0.7301,
+            0.795
+          ],
+          "soft_rate_ci95": [
+            0.6562,
+            0.7266
+          ]
+        },
+        "0.30": {
+          "paired": 657,
+          "base_rate": 0.7641,
+          "soft_rate": 0.7169,
+          "delta": -0.0472,
+          "improve_unsafe_to_safe": 47,
+          "regress_safe_to_unsafe": 78,
+          "net_flips": -31,
+          "mcnemar_p_two_sided": 0.007047,
+          "base_rate_ci95": [
+            0.7301,
+            0.795
+          ],
+          "soft_rate_ci95": [
+            0.6813,
+            0.75
+          ]
+        },
+        "0.50": {
+          "paired": 657,
+          "base_rate": 0.7641,
+          "soft_rate": 0.7489,
+          "delta": -0.0152,
+          "improve_unsafe_to_safe": 46,
+          "regress_safe_to_unsafe": 56,
+          "net_flips": -10,
+          "mcnemar_p_two_sided": 0.372944,
+          "base_rate_ci95": [
+            0.7301,
+            0.795
+          ],
+          "soft_rate_ci95": [
+            0.7143,
+            0.7805
+          ]
+        },
+        "0.70": {
+          "paired": 657,
+          "base_rate": 0.7641,
+          "soft_rate": 0.7565,
+          "delta": -0.0076,
+          "improve_unsafe_to_safe": 33,
+          "regress_safe_to_unsafe": 38,
+          "net_flips": -5,
+          "mcnemar_p_two_sided": 0.635308,
+          "base_rate_ci95": [
+            0.7301,
+            0.795
+          ],
+          "soft_rate_ci95": [
+            0.7222,
+            0.7877
+          ]
+        },
+        "0.90": {
+          "paired": 657,
+          "base_rate": 0.7641,
+          "soft_rate": 0.7778,
+          "delta": 0.0137,
+          "improve_unsafe_to_safe": 21,
+          "regress_safe_to_unsafe": 12,
+          "net_flips": 9,
+          "mcnemar_p_two_sided": 0.162756,
+          "base_rate_ci95": [
+            0.7301,
+            0.795
+          ],
+          "soft_rate_ci95": [
+            0.7444,
+            0.8079
+          ]
+        },
+        "1.00": {
+          "paired": 657,
+          "base_rate": 0.7641,
+          "soft_rate": 0.7641,
+          "delta": 0.0,
+          "improve_unsafe_to_safe": 0,
+          "regress_safe_to_unsafe": 0,
+          "net_flips": 0,
+          "mcnemar_p_two_sided": 1.0,
+          "base_rate_ci95": [
+            0.7301,
+            0.795
+          ],
+          "soft_rate_ci95": [
+            0.7301,
+            0.795
+          ]
+        }
+      },
+      "labels_csv": "/kaggle/working/judge_labels_Qwen2.5-3B-Instruct_privacy.csv"
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "model": "Qwen/Qwen2-7B-Instruct",
+  "domain": "healthcare",
+  "variant": "soft-SPIN",
+  "coupled_count": 1161,
+  "alphas": [
+    0.0,
+    0.1,
+    0.3,
+    0.5,
+    0.7,
+    0.9,
+    1.0
+  ],
+  "n_fair": 1416,
+  "n_priv": 657,
+  "per_alpha": [
+    {
+      "alpha": 0.0,
+      "coupled_scaled": 1161,
+      "changed_fair": 1404,
+      "changed_priv": 647,
+      "empty_soft_fair": 0,
+      "empty_soft_priv": 9
+    },
+    {
+      "alpha": 0.1,
+      "coupled_scaled": 1161,
+      "changed_fair": 1391,
+      "changed_priv": 645,
+      "empty_soft_fair": 0,
+      "empty_soft_priv": 8
+    },
+    {
+      "alpha": 0.3,
+      "coupled_scaled": 1161,
+      "changed_fair": 1365,
+      "changed_priv": 643,
+      "empty_soft_fair": 0,
+      "empty_soft_priv": 8
+    },
+    {
+      "alpha": 0.5,
+      "coupled_scaled": 1161,
+      "changed_fair": 1306,
+      "changed_priv": 626,
+      "empty_soft_fair": 0,
+      "empty_soft_priv": 7
+    },
+    {
+      "alpha": 0.7,
+      "coupled_scaled": 1161,
+      "changed_fair": 1128,
+      "changed_priv": 555,
+      "empty_soft_fair": 0,
+      "empty_soft_priv": 7
+    },
+    {
+      "alpha": 0.9,
+      "coupled_scaled": 1161,
+      "changed_fair": 613,
+      "changed_priv": 328,
+      "empty_soft_fair": 0,
+      "empty_soft_priv": 6
+    },
+    {
+      "alpha": 1.0,
+      "coupled_scaled": 1161,
+      "changed_fair": 0,
+      "changed_priv": 0,
+      "empty_soft_fair": 0,
+      "empty_soft_priv": 6
+    }
+  ]
+}

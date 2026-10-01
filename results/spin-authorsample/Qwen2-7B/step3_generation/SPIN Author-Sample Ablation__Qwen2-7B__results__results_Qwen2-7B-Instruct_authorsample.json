@@ -1,0 +1,6 @@
+{
+  "model": "Qwen/Qwen2-7B-Instruct",
+  "tag": "Qwen2-7B-Instruct_authorsample",
+  "coupled_zeroed": 1201,
+  "n_eval": null
+}

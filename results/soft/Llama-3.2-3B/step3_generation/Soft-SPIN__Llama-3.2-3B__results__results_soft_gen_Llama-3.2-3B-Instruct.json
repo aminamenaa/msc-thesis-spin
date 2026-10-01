@@ -1,0 +1,18 @@
+{
+  "model": "meta-llama/Llama-3.2-3B-Instruct",
+  "tag": "Llama-3.2-3B-Instruct",
+  "variant": "soft-SPIN",
+  "coupled_count": 931,
+  "alphas": [
+    0.0,
+    0.1,
+    0.3,
+    0.5,
+    0.7,
+    0.9,
+    1.0
+  ],
+  "n_eval": null,
+  "n_fair": 2165,
+  "n_priv": 657
+}

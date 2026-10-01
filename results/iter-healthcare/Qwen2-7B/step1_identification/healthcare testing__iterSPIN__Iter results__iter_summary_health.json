@@ -1,0 +1,96 @@
+{
+ "model": "Qwen/Qwen2-7B-Instruct",
+ "domain": "healthcare",
+ "rounds": [
+  {
+   "round": 1,
+   "seconds": 1339,
+   "new": 1160,
+   "cumulative": 1160,
+   "n_fp": 1146,
+   "n_fp_notg": 391,
+   "zeroed": 1160
+  },
+  {
+   "round": 2,
+   "seconds": 1348,
+   "new": 990,
+   "cumulative": 2150,
+   "n_fp": 1010,
+   "n_fp_notg": 208,
+   "zeroed": 2150
+  },
+  {
+   "round": 3,
+   "seconds": 1346,
+   "new": 838,
+   "cumulative": 2988,
+   "n_fp": 1042,
+   "n_fp_notg": 191,
+   "zeroed": 2988
+  },
+  {
+   "round": 4,
+   "seconds": 1346,
+   "new": 777,
+   "cumulative": 3765,
+   "n_fp": 1015,
+   "n_fp_notg": 126,
+   "zeroed": 3765
+  },
+  {
+   "round": 5,
+   "seconds": 1347,
+   "new": 766,
+   "cumulative": 4531,
+   "n_fp": 959,
+   "n_fp_notg": 85,
+   "zeroed": 4531
+  },
+  {
+   "round": 6,
+   "seconds": 1344,
+   "new": 739,
+   "cumulative": 5270,
+   "n_fp": 984,
+   "n_fp_notg": 82,
+   "zeroed": 5270
+  },
+  {
+   "round": 7,
+   "seconds": 1342,
+   "new": 707,
+   "cumulative": 5977,
+   "n_fp": 1025,
+   "n_fp_notg": 90,
+   "zeroed": 5977
+  },
+  {
+   "round": 8,
+   "seconds": 1340,
+   "new": 872,
+   "cumulative": 6849,
+   "n_fp": 927,
+   "n_fp_notg": 48,
+   "zeroed": 6849
+  },
+  {
+   "round": 9,
+   "seconds": 1342,
+   "new": 987,
+   "cumulative": 7836,
+   "n_fp": 846,
+   "n_fp_notg": 37,
+   "zeroed": 7836
+  },
+  {
+   "round": 10,
+   "seconds": 1345,
+   "new": 941,
+   "cumulative": 8777,
+   "n_fp": 905,
+   "n_fp_notg": 57,
+   "zeroed": 8777
+  }
+ ]
+}

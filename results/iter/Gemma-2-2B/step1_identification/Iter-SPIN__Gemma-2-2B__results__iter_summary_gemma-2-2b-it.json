@@ -1,0 +1,96 @@
+{
+ "model": "google/gemma-2-2b-it",
+ "sampling": "hf_datasets.shuffle(seed).select",
+ "rounds": [
+  {
+   "round": 1,
+   "seconds": 481,
+   "new": 235,
+   "cumulative": 235,
+   "n_fp": 639,
+   "n_fp_notg": 200,
+   "zeroed": 235
+  },
+  {
+   "round": 2,
+   "seconds": 478,
+   "new": 188,
+   "cumulative": 423,
+   "n_fp": 599,
+   "n_fp_notg": 133,
+   "zeroed": 423
+  },
+  {
+   "round": 3,
+   "seconds": 478,
+   "new": 165,
+   "cumulative": 588,
+   "n_fp": 584,
+   "n_fp_notg": 111,
+   "zeroed": 588
+  },
+  {
+   "round": 4,
+   "seconds": 478,
+   "new": 168,
+   "cumulative": 756,
+   "n_fp": 573,
+   "n_fp_notg": 95,
+   "zeroed": 756
+  },
+  {
+   "round": 5,
+   "seconds": 477,
+   "new": 166,
+   "cumulative": 922,
+   "n_fp": 563,
+   "n_fp_notg": 92,
+   "zeroed": 922
+  },
+  {
+   "round": 6,
+   "seconds": 475,
+   "new": 141,
+   "cumulative": 1063,
+   "n_fp": 564,
+   "n_fp_notg": 78,
+   "zeroed": 1063
+  },
+  {
+   "round": 7,
+   "seconds": 475,
+   "new": 140,
+   "cumulative": 1203,
+   "n_fp": 554,
+   "n_fp_notg": 74,
+   "zeroed": 1203
+  },
+  {
+   "round": 8,
+   "seconds": 476,
+   "new": 131,
+   "cumulative": 1334,
+   "n_fp": 552,
+   "n_fp_notg": 72,
+   "zeroed": 1334
+  },
+  {
+   "round": 9,
+   "seconds": 478,
+   "new": 134,
+   "cumulative": 1468,
+   "n_fp": 553,
+   "n_fp_notg": 67,
+   "zeroed": 1468
+  },
+  {
+   "round": 10,
+   "seconds": 476,
+   "new": 128,
+   "cumulative": 1596,
+   "n_fp": 552,
+   "n_fp_notg": 68,
+   "zeroed": 1596
+  }
+ ]
+}

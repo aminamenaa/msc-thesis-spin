@@ -1,0 +1,96 @@
+{
+ "model": "Qwen/Qwen2.5-3B-Instruct",
+ "sampling": "hf_datasets.shuffle(seed).select",
+ "rounds": [
+  {
+   "round": 1,
+   "seconds": 710,
+   "new": 645,
+   "cumulative": 645,
+   "n_fp": 782,
+   "n_fp_notg": 438,
+   "zeroed": 645
+  },
+  {
+   "round": 2,
+   "seconds": 708,
+   "new": 648,
+   "cumulative": 1293,
+   "n_fp": 755,
+   "n_fp_notg": 416,
+   "zeroed": 1293
+  },
+  {
+   "round": 3,
+   "seconds": 704,
+   "new": 607,
+   "cumulative": 1900,
+   "n_fp": 666,
+   "n_fp_notg": 339,
+   "zeroed": 1900
+  },
+  {
+   "round": 4,
+   "seconds": 707,
+   "new": 555,
+   "cumulative": 2455,
+   "n_fp": 667,
+   "n_fp_notg": 294,
+   "zeroed": 2455
+  },
+  {
+   "round": 5,
+   "seconds": 704,
+   "new": 551,
+   "cumulative": 3006,
+   "n_fp": 701,
+   "n_fp_notg": 307,
+   "zeroed": 3006
+  },
+  {
+   "round": 6,
+   "seconds": 702,
+   "new": 600,
+   "cumulative": 3606,
+   "n_fp": 622,
+   "n_fp_notg": 272,
+   "zeroed": 3606
+  },
+  {
+   "round": 7,
+   "seconds": 704,
+   "new": 621,
+   "cumulative": 4227,
+   "n_fp": 608,
+   "n_fp_notg": 271,
+   "zeroed": 4227
+  },
+  {
+   "round": 8,
+   "seconds": 707,
+   "new": 584,
+   "cumulative": 4811,
+   "n_fp": 587,
+   "n_fp_notg": 228,
+   "zeroed": 4811
+  },
+  {
+   "round": 9,
+   "seconds": 704,
+   "new": 593,
+   "cumulative": 5404,
+   "n_fp": 572,
+   "n_fp_notg": 218,
+   "zeroed": 5404
+  },
+  {
+   "round": 10,
+   "seconds": 698,
+   "new": 597,
+   "cumulative": 6001,
+   "n_fp": 545,
+   "n_fp_notg": 204,
+   "zeroed": 6001
+  }
+ ]
+}

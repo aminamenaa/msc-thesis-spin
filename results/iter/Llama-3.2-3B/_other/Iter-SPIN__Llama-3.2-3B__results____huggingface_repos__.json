@@ -1,0 +1,1 @@
+{"repos": [{"repoId": "meta-llama/Llama-3.2-3B-Instruct", "repoType": "model", "commitHash": "0cb88a4f764b7a12671c53f0838cd831a0843b95", "filePaths": ["config.json", "tokenizer.json", "generation_config.json", "tokenizer_config.json", "model.safetensors.index.json", "model-00002-of-00002.safetensors", "special_tokens_map.json", "model-00001-of-00002.safetensors"]}]}

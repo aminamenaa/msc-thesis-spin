@@ -1,0 +1,86 @@
+{
+  "Qwen2-7B-Instruct_authorsample": {
+    "fairness": {
+      "paired": 2165,
+      "dropped_no_following": 0,
+      "base_rate": 0.7473,
+      "spin_rate": 0.8079,
+      "delta": 0.0605,
+      "improve_unsafe_to_safe": 260,
+      "regress_safe_to_unsafe": 129,
+      "net_flips": 131,
+      "mcnemar_p_two_sided": 2.8570656744842187e-11,
+      "base_rate_ci95": [
+        0.7286,
+        0.7652
+      ],
+      "spin_rate_ci95": [
+        0.7907,
+        0.8239
+      ],
+      "labels_csv": "/kaggle/working/judge_labels_Qwen2-7B-Instruct_authorsample_fairness.csv"
+    },
+    "privacy": {
+      "paired": 657,
+      "dropped_no_following": 0,
+      "base_rate": 0.7945,
+      "spin_rate": 0.8706,
+      "delta": 0.0761,
+      "improve_unsafe_to_safe": 76,
+      "regress_safe_to_unsafe": 26,
+      "net_flips": 50,
+      "mcnemar_p_two_sided": 7.439048296053685e-07,
+      "base_rate_ci95": [
+        0.762,
+        0.8237
+      ],
+      "spin_rate_ci95": [
+        0.8428,
+        0.8941
+      ],
+      "labels_csv": "/kaggle/working/judge_labels_Qwen2-7B-Instruct_authorsample_privacy.csv"
+    }
+  },
+  "Qwen2-7B-Instruct": {
+    "fairness": {
+      "paired": 2165,
+      "dropped_no_following": 0,
+      "base_rate": 0.7473,
+      "spin_rate": 0.8028,
+      "delta": 0.0554,
+      "improve_unsafe_to_safe": 244,
+      "regress_safe_to_unsafe": 124,
+      "net_flips": 120,
+      "mcnemar_p_two_sided": 3.898098886110009e-10,
+      "base_rate_ci95": [
+        0.7286,
+        0.7652
+      ],
+      "spin_rate_ci95": [
+        0.7855,
+        0.819
+      ],
+      "labels_csv": "/kaggle/working/judge_labels_Qwen2-7B-Instruct_fairness.csv"
+    },
+    "privacy": {
+      "paired": 657,
+      "dropped_no_following": 0,
+      "base_rate": 0.7945,
+      "spin_rate": 0.863,
+      "delta": 0.0685,
+      "improve_unsafe_to_safe": 73,
+      "regress_safe_to_unsafe": 28,
+      "net_flips": 45,
+      "mcnemar_p_two_sided": 8.635781314660542e-06,
+      "base_rate_ci95": [
+        0.762,
+        0.8237
+      ],
+      "spin_rate_ci95": [
+        0.8346,
+        0.8872
+      ],
+      "labels_csv": "/kaggle/working/judge_labels_Qwen2-7B-Instruct_privacy.csv"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "model": "Qwen/Qwen2-7B-Instruct",
+  "coupled_zeroed": 1163,
+  "n_fair": 1416,
+  "n_priv": 657,
+  "answer_changed_fair": 1406,
+  "answer_changed_priv": 648,
+  "empty_spin_fair": 0,
+  "empty_spin_priv": 9
+}

@@ -1,0 +1,72 @@
+{
+  "tag": "Qwen2-7B-Instruct",
+  "judge": "OpenSafetyLab/MD-Judge-v0.1",
+  "judge_limit": null,
+  "test": "paired McNemar (exact, two-sided); Wilson score 95% CI",
+  "results": {
+    "fairness": {
+      "baseline": {
+        "rate": 0.7473,
+        "n": 2165,
+        "nf": 0,
+        "rate_ci95": [
+          0.7286,
+          0.7652
+        ]
+      },
+      "per_alpha": {
+        "0.70": {
+          "paired": 2165,
+          "base_rate": 0.7473,
+          "soft_rate": 0.7709,
+          "delta": 0.0236,
+          "improve_unsafe_to_safe": 131,
+          "regress_safe_to_unsafe": 80,
+          "net_flips": 51,
+          "mcnemar_p_two_sided": 0.000546,
+          "base_rate_ci95": [
+            0.7286,
+            0.7652
+          ],
+          "soft_rate_ci95": [
+            0.7527,
+            0.7881
+          ]
+        }
+      },
+      "labels_csv": "/kaggle/working/judge_labels_Qwen2-7B-Instruct_fairness.csv"
+    },
+    "privacy": {
+      "baseline": {
+        "rate": 0.7945,
+        "n": 657,
+        "nf": 0,
+        "rate_ci95": [
+          0.762,
+          0.8237
+        ]
+      },
+      "per_alpha": {
+        "0.70": {
+          "paired": 657,
+          "base_rate": 0.7945,
+          "soft_rate": 0.8128,
+          "delta": 0.0183,
+          "improve_unsafe_to_safe": 30,
+          "regress_safe_to_unsafe": 18,
+          "net_flips": 12,
+          "mcnemar_p_two_sided": 0.111403,
+          "base_rate_ci95": [
+            0.762,
+            0.8237
+          ],
+          "soft_rate_ci95": [
+            0.7812,
+            0.8408
+          ]
+        }
+      },
+      "labels_csv": "/kaggle/working/judge_labels_Qwen2-7B-Instruct_privacy.csv"
+    }
+  }
+}

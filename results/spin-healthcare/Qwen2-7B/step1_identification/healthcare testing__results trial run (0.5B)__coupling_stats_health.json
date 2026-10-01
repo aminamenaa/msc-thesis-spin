@@ -1,0 +1,710 @@
+{
+ "model": "Qwen/Qwen2.5-0.5B-Instruct",
+ "p": 5e-07,
+ "q": 5e-07,
+ "nsamples": 128,
+ "target": "mlp",
+ "calibration": {
+  "fair": 128,
+  "priv": 128,
+  "general": 128
+ },
+ "aggregate": {
+  "ng": 144,
+  "nf": 144,
+  "np": 144,
+  "n_fp": 64,
+  "n_fp_notg": 26,
+  "code": 73
+ },
+ "coupled_total_code": 73,
+ "mlp_params": 313786368,
+ "intervention_sparsity": 2.3264235621606097e-07,
+ "chance_overlap": 6.608317669172932e-05,
+ "reference_general_baseline": {
+  "n_fp": 101,
+  "n_fp_notg": 56,
+  "code": 86
+ },
+ "ratio_vs_chance": 968476.4444444445,
+ "ratio_vs_general": 0.6336633663366337,
+ "verdict": "WELL-POSED \u2014 proceed to Milestone 2",
+ "coupled_per_layer": {
+  "0": 2,
+  "2": 1,
+  "4": 3,
+  "5": 3,
+  "6": 2,
+  "7": 6,
+  "8": 3,
+  "9": 4,
+  "10": 2,
+  "11": 6,
+  "12": 5,
+  "13": 3,
+  "14": 6,
+  "15": 2,
+  "16": 3,
+  "17": 4,
+  "18": 2,
+  "19": 3,
+  "20": 4,
+  "22": 4,
+  "23": 5
+ },
+ "coupled_per_proj": {
+  "gate": 34,
+  "up": 20,
+  "down": 19
+ },
+ "per_matrix": {
+  "model.layers.0.mlp.gate_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 0,
+   "n_fp_notg": 0,
+   "numel": 4358144,
+   "code": 2
+  },
+  "model.layers.0.mlp.up_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 1,
+   "n_fp_notg": 0,
+   "numel": 4358144,
+   "code": 0
+  },
+  "model.layers.0.mlp.down_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 0,
+   "n_fp_notg": 0,
+   "numel": 4358144,
+   "code": 0
+  },
+  "model.layers.1.mlp.gate_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 1,
+   "n_fp_notg": 0,
+   "numel": 4358144,
+   "code": 0
+  },
+  "model.layers.1.mlp.up_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 2,
+   "n_fp_notg": 0,
+   "numel": 4358144,
+   "code": 0
+  },
+  "model.layers.1.mlp.down_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 2,
+   "n_fp_notg": 0,
+   "numel": 4358144,
+   "code": 0
+  },
+  "model.layers.2.mlp.gate_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 0,
+   "n_fp_notg": 0,
+   "numel": 4358144,
+   "code": 1
+  },
+  "model.layers.2.mlp.up_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 2,
+   "n_fp_notg": 0,
+   "numel": 4358144,
+   "code": 0
+  },
+  "model.layers.2.mlp.down_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 2,
+   "n_fp_notg": 0,
+   "numel": 4358144,
+   "code": 0
+  },
+  "model.layers.3.mlp.gate_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 2,
+   "n_fp_notg": 0,
+   "numel": 4358144,
+   "code": 0
+  },
+  "model.layers.3.mlp.up_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 2,
+   "n_fp_notg": 0,
+   "numel": 4358144,
+   "code": 0
+  },
+  "model.layers.3.mlp.down_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 2,
+   "n_fp_notg": 0,
+   "numel": 4358144,
+   "code": 0
+  },
+  "model.layers.4.mlp.gate_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 0,
+   "n_fp_notg": 0,
+   "numel": 4358144,
+   "code": 2
+  },
+  "model.layers.4.mlp.up_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 1,
+   "n_fp_notg": 1,
+   "numel": 4358144,
+   "code": 1
+  },
+  "model.layers.4.mlp.down_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 1,
+   "n_fp_notg": 0,
+   "numel": 4358144,
+   "code": 0
+  },
+  "model.layers.5.mlp.gate_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 1,
+   "n_fp_notg": 1,
+   "numel": 4358144,
+   "code": 2
+  },
+  "model.layers.5.mlp.up_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 1,
+   "n_fp_notg": 1,
+   "numel": 4358144,
+   "code": 1
+  },
+  "model.layers.5.mlp.down_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 2,
+   "n_fp_notg": 0,
+   "numel": 4358144,
+   "code": 0
+  },
+  "model.layers.6.mlp.gate_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 1,
+   "n_fp_notg": 0,
+   "numel": 4358144,
+   "code": 1
+  },
+  "model.layers.6.mlp.up_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 1,
+   "n_fp_notg": 0,
+   "numel": 4358144,
+   "code": 0
+  },
+  "model.layers.6.mlp.down_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 1,
+   "n_fp_notg": 1,
+   "numel": 4358144,
+   "code": 1
+  },
+  "model.layers.7.mlp.gate_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 0,
+   "n_fp_notg": 0,
+   "numel": 4358144,
+   "code": 2
+  },
+  "model.layers.7.mlp.up_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 1,
+   "n_fp_notg": 1,
+   "numel": 4358144,
+   "code": 2
+  },
+  "model.layers.7.mlp.down_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 0,
+   "n_fp_notg": 0,
+   "numel": 4358144,
+   "code": 2
+  },
+  "model.layers.8.mlp.gate_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 0,
+   "n_fp_notg": 0,
+   "numel": 4358144,
+   "code": 1
+  },
+  "model.layers.8.mlp.up_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 0,
+   "n_fp_notg": 0,
+   "numel": 4358144,
+   "code": 1
+  },
+  "model.layers.8.mlp.down_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 0,
+   "n_fp_notg": 0,
+   "numel": 4358144,
+   "code": 1
+  },
+  "model.layers.9.mlp.gate_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 1,
+   "n_fp_notg": 1,
+   "numel": 4358144,
+   "code": 2
+  },
+  "model.layers.9.mlp.up_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 1,
+   "n_fp_notg": 1,
+   "numel": 4358144,
+   "code": 2
+  },
+  "model.layers.9.mlp.down_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 0,
+   "n_fp_notg": 0,
+   "numel": 4358144,
+   "code": 0
+  },
+  "model.layers.10.mlp.gate_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 0,
+   "n_fp_notg": 0,
+   "numel": 4358144,
+   "code": 2
+  },
+  "model.layers.10.mlp.up_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 1,
+   "n_fp_notg": 0,
+   "numel": 4358144,
+   "code": 0
+  },
+  "model.layers.10.mlp.down_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 0,
+   "n_fp_notg": 0,
+   "numel": 4358144,
+   "code": 0
+  },
+  "model.layers.11.mlp.gate_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 0,
+   "n_fp_notg": 0,
+   "numel": 4358144,
+   "code": 2
+  },
+  "model.layers.11.mlp.up_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 0,
+   "n_fp_notg": 0,
+   "numel": 4358144,
+   "code": 2
+  },
+  "model.layers.11.mlp.down_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 0,
+   "n_fp_notg": 0,
+   "numel": 4358144,
+   "code": 2
+  },
+  "model.layers.12.mlp.gate_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 0,
+   "n_fp_notg": 0,
+   "numel": 4358144,
+   "code": 1
+  },
+  "model.layers.12.mlp.up_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 2,
+   "n_fp_notg": 2,
+   "numel": 4358144,
+   "code": 2
+  },
+  "model.layers.12.mlp.down_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 1,
+   "n_fp_notg": 1,
+   "numel": 4358144,
+   "code": 2
+  },
+  "model.layers.13.mlp.gate_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 0,
+   "n_fp_notg": 0,
+   "numel": 4358144,
+   "code": 2
+  },
+  "model.layers.13.mlp.up_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 1,
+   "n_fp_notg": 1,
+   "numel": 4358144,
+   "code": 1
+  },
+  "model.layers.13.mlp.down_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 1,
+   "n_fp_notg": 0,
+   "numel": 4358144,
+   "code": 0
+  },
+  "model.layers.14.mlp.gate_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 0,
+   "n_fp_notg": 0,
+   "numel": 4358144,
+   "code": 2
+  },
+  "model.layers.14.mlp.up_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 1,
+   "n_fp_notg": 1,
+   "numel": 4358144,
+   "code": 2
+  },
+  "model.layers.14.mlp.down_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 1,
+   "n_fp_notg": 1,
+   "numel": 4358144,
+   "code": 2
+  },
+  "model.layers.15.mlp.gate_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 1,
+   "n_fp_notg": 0,
+   "numel": 4358144,
+   "code": 1
+  },
+  "model.layers.15.mlp.up_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 2,
+   "n_fp_notg": 0,
+   "numel": 4358144,
+   "code": 0
+  },
+  "model.layers.15.mlp.down_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 1,
+   "n_fp_notg": 0,
+   "numel": 4358144,
+   "code": 1
+  },
+  "model.layers.16.mlp.gate_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 0,
+   "n_fp_notg": 0,
+   "numel": 4358144,
+   "code": 1
+  },
+  "model.layers.16.mlp.up_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 1,
+   "n_fp_notg": 0,
+   "numel": 4358144,
+   "code": 0
+  },
+  "model.layers.16.mlp.down_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 0,
+   "n_fp_notg": 0,
+   "numel": 4358144,
+   "code": 2
+  },
+  "model.layers.17.mlp.gate_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 1,
+   "n_fp_notg": 1,
+   "numel": 4358144,
+   "code": 1
+  },
+  "model.layers.17.mlp.up_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 1,
+   "n_fp_notg": 0,
+   "numel": 4358144,
+   "code": 1
+  },
+  "model.layers.17.mlp.down_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 2,
+   "n_fp_notg": 2,
+   "numel": 4358144,
+   "code": 2
+  },
+  "model.layers.18.mlp.gate_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 0,
+   "n_fp_notg": 0,
+   "numel": 4358144,
+   "code": 1
+  },
+  "model.layers.18.mlp.up_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 0,
+   "n_fp_notg": 0,
+   "numel": 4358144,
+   "code": 1
+  },
+  "model.layers.18.mlp.down_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 2,
+   "n_fp_notg": 0,
+   "numel": 4358144,
+   "code": 0
+  },
+  "model.layers.19.mlp.gate_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 2,
+   "n_fp_notg": 2,
+   "numel": 4358144,
+   "code": 2
+  },
+  "model.layers.19.mlp.up_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 0,
+   "n_fp_notg": 0,
+   "numel": 4358144,
+   "code": 0
+  },
+  "model.layers.19.mlp.down_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 2,
+   "n_fp_notg": 1,
+   "numel": 4358144,
+   "code": 1
+  },
+  "model.layers.20.mlp.gate_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 2,
+   "n_fp_notg": 2,
+   "numel": 4358144,
+   "code": 2
+  },
+  "model.layers.20.mlp.up_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 1,
+   "n_fp_notg": 1,
+   "numel": 4358144,
+   "code": 1
+  },
+  "model.layers.20.mlp.down_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 0,
+   "n_fp_notg": 0,
+   "numel": 4358144,
+   "code": 1
+  },
+  "model.layers.21.mlp.gate_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 2,
+   "n_fp_notg": 0,
+   "numel": 4358144,
+   "code": 0
+  },
+  "model.layers.21.mlp.up_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 2,
+   "n_fp_notg": 0,
+   "numel": 4358144,
+   "code": 0
+  },
+  "model.layers.21.mlp.down_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 2,
+   "n_fp_notg": 0,
+   "numel": 4358144,
+   "code": 0
+  },
+  "model.layers.22.mlp.gate_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 1,
+   "n_fp_notg": 1,
+   "numel": 4358144,
+   "code": 2
+  },
+  "model.layers.22.mlp.up_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 1,
+   "n_fp_notg": 1,
+   "numel": 4358144,
+   "code": 1
+  },
+  "model.layers.22.mlp.down_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 1,
+   "n_fp_notg": 1,
+   "numel": 4358144,
+   "code": 1
+  },
+  "model.layers.23.mlp.gate_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 0,
+   "n_fp_notg": 0,
+   "numel": 4358144,
+   "code": 2
+  },
+  "model.layers.23.mlp.up_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 1,
+   "n_fp_notg": 1,
+   "numel": 4358144,
+   "code": 2
+  },
+  "model.layers.23.mlp.down_proj.weight": {
+   "ng": 2,
+   "nf": 2,
+   "np": 2,
+   "n_fp": 0,
+   "n_fp_notg": 0,
+   "numel": 4358144,
+   "code": 1
+  }
+ }
+}

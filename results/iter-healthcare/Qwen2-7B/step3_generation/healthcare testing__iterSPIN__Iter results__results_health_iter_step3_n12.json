@@ -1,0 +1,28 @@
+{
+  "model": "Qwen/Qwen2-7B-Instruct",
+  "domain": "healthcare",
+  "only_n": [
+    1,
+    2
+  ],
+  "sets": [
+    {
+      "variant": "iter",
+      "n": 1,
+      "coupled_zeroed": 1160,
+      "changed_fair": 1406,
+      "changed_priv": 647,
+      "empty_spin_fair": 0,
+      "empty_spin_priv": 9
+    },
+    {
+      "variant": "iter",
+      "n": 2,
+      "coupled_zeroed": 2150,
+      "changed_fair": 1412,
+      "changed_priv": 651,
+      "empty_spin_fair": 0,
+      "empty_spin_priv": 8
+    }
+  ]
+}
